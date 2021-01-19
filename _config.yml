@@ -6,13 +6,13 @@ description: "Team Websolute"
 
 # THEME-SPECIFIC CONFIGURATION
 # Meta
-avatar: assets/img/avatars/rocket-icon.png
-color_image: /assets/img/lineart.png # In post when you set color
+avatar: assets/img/avatars/ts4.jpeg
+color_image: /assets/img/rocket-icon.png # In post when you set color
 favicon: assets/favicon.ico
 
 # Header and footer text
 header_text: Pave the way websolute!
-header_feature_image: assets/img/pexels/circuit.jpeg
+header_feature_image: assets/img/pexels/SOV.jpg
 footer_text: Copyright 2021
 # Blog
 excerpt: truncate
