@@ -7,7 +7,7 @@ tags: [os]
 <head>Javascript배우기 by 생활코딩
     <meta charset="utf-8">
     <style>
-    h2 {
+    h3 {
         border:1px dotted yellow;
         color: green;
     }
@@ -16,7 +16,7 @@ tags: [os]
 <p>
 웹페이지만 존재하는것이 아니라 사용자와 상호작용을 하기 위해서 만든 언어
 </p>
-<h2>HTML과 Javascript의 만남!</h3>
+<h3>HTML과 Javascript의 만남!</h3>
 <ul>
 <li>script태그<br>body태그안에 script태그를 만들어서 기능을 추가한다.</li>
 <li>input태그<br>사용자와 상호작용할 수 있는 이름있는 버튼을 만들고 버튼을 눌렀을때 변화도 줄수있다.
@@ -34,19 +34,19 @@ tags: [os]
 <li>&lt; //태그 표시가 <(악어입)이라서 코드로 나타낼떄에는 lt(less than의 약자)를 사용해서 표기한다.</li>
 </ul>
 </ul>
-<h2>console이용</h2>
+<h3>console이용</h3>
 <p>(mac)웹페이지에서 개발자용에서 웹 속성안에 있는 console에 원하는 값을 출력하는 코드를 붙여 놓으면 간단히 원하는 값만 출력할 수 있어서 개발하기 유용하다.</p>
 <h2>조건문</h2>
 <p>if (조건문) {조건문이 참일 때 실행할 문장;}else {조건문이 거짓일 때 실행할 문장;} 형식으로 적는다.</p>
-<h2>배열</h2>
+<h3>배열</h3>
 <p></p>
-<h2>반복문</h2>
+<h3>반복문</h3>
 <ul>
 <li>while</li>
 무한 루프
 <li>for</li>
 몇번 돌지 알때 쓰는 반복문이다. 
 </ul>
-<h2>Function</h2>
+<h3>Function</h3>
 
-<h2>객체</h2>
+<h3>객체</h3>
