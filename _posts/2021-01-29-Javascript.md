@@ -25,7 +25,7 @@ tags: [os]
 <li>value로 type으로 만든것 이름 지정하기</li>
 <li>event로 웹브라우저 위에서 일어나는 사건을 만든다.  onclick, onchanged, onkeydown..</li>
 </ul>
-<p style="font-size: 17px">ex)input type="botton" value="click" onclick="alert('again')"</p>
+<p style="font-size: 15px">ex)input type="botton" value="click" onclick="alert('again')"</p>
 <li>document<br>document는 내가 사용하고 있는 문서를 가리키는 객체를 의미해서 뒤에 .write & .querytSelector & .script등등을 덧붙여 활용한다. 
 <br style="font-size:17px; color:deepskyblue;">ex)가장대표적인 쉽고 흔한 것은 script태그 속에 document.write()를 적는 것이다. 이 기능은 내부에 숫자식을 적으면 계산이 된 값이 나오고 ''를 이용해서 글을 적으면 문자열로 인식이 되어서 그대로 글이 적힌다. </li>
 <li>비교연산자</li>
@@ -60,9 +60,12 @@ while(횟수조건) {<br>
     반복할 문장
  }
 <h3>Function</h3>
-같은 작업을 반복할 경우 함수를 만들어서 그 작업이 들어가는 곳에는 함수명만 적어주면 되기때문에 코드의 길이를 줄이고 반복도 안할수 있다. 
+같은 작업을 반복할 경우 함수를 만들어서 그 작업이 들어가는 곳에는 함수명만 적어주면 되기때문에 코드의 길이를 줄이고 반복도 하지 않을 수 있다. </br>
+Function 함수명() { </br>
+    함수 안에 넣을 코드 작성 </br>
+}
 <h3>객체(object)</h3>
 <p>var 객체명 = { <br>
-    객체 내부작업 명칭1: 안에 사용될 코드들{~},
+    객체 내부작업 명칭1: 안에 사용될 코드들{~},<br>
     객체 내부작업 명칭2: 안에 사용될 코드들{~} <br>
 }
