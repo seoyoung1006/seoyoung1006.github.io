@@ -20,8 +20,10 @@ tags: [os]
 <li>[] usePreventLeave: 유저가 무언가를 저장하지 않고 페이지를 나가길 원할때 확인해줌</li>
 <li>[] useConfim: 위와 비슷한데 다른 기능 존재</li>
 <li>[] useAxios: wrapper과 비슷한 것</li>
+<li>[] useEffect: componentDidMount와 같은 효과+ componentDidUpdate와 같은 것</li>
 
 NPM package에 등록하는 방법 배울 것이다.
++codeSandBox사용해서 할것임~
 
 <p style>
 알아야 하는 사항!
