@@ -4,6 +4,12 @@ title: ReactHooks_1
 color: rgb(255, 111, 97)
 tags: [os]
 ---
+<style>
+p {
+  background-Color: black;
+  color: gray;
+}
+</style>
 react앱 사용하면서의 단점
 1.handing input
 2.data가져오기=fetching
