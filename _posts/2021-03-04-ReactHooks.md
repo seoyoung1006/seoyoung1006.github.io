@@ -29,5 +29,6 @@ NPM package에 등록하는 방법 배울 것이다.
 알아야 하는 사항!
 
 setState,component,componentDidMount..에 대해 알고 있어야 함
+
 </p>
 </ul>

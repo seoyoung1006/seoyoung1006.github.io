@@ -38,26 +38,26 @@ const App= () => {
 }
 </p>
 <p>
-class AppUgly extends React.Component{
-  state= {
-    item: 1
-  }
-  render(){
-    const { item } = this.state;
-    return (
-      <div className="App">
-        <h1>Hello {item}</h1>
-        <h2>Start editing to see some magic happen!</h2>
-        <button onClick={this.incrementItem}>Increment</button>
-        <button onClick={this.decrementItem}>Decrement</button>
-      </div>
-    );
-  }
-  incrementItem = () => {
-    this.setState(state => {
-       return {
-      item:state.item. +1
-      };
+class AppUgly extends React.Component{ <br>
+  state= { <br>
+    item: 1 <br>
+  }  <br>
+  render(){ <br>
+    const { item } = this.state; <br>
+    return (  <br>
+      <div className="App">  <br>
+        <h1>Hello {item}</h1>  <br>
+        <h2>Start editing to see some magic happen!</h2>  <br>
+        <button onClick={this.incrementItem}>Increment</button>  <br>
+        <button onClick={this.decrementItem}>Decrement</button>  <br>
+      </div>  <br>
+    );  <br>
+  }    <br>
+  incrementItem = () => {   <br>
+    this.setState(state => {  <br> 
+       return {  <br>
+      item:state.item. +1  <br>
+      };  <br>s
     });
    };
   decrementItem = () => {
