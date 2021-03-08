@@ -70,4 +70,7 @@ class AppUgly extends React.Component{ <br>
 }
 </p>
 useState
+1.state를 초기화 시켜주고
+2.첫번째 아이템인 currentindex는 index가 될것이고 두번째 아이템인 setCurrentIndex는 value를 바꿔줄것이다.
+useState의 value를 초기화해주고 현재value와 value를 변경해주는것은 매우 간단
 setState=> 모든것을 새로고침 해준다, rerender함. render function이 없다고 render이 안되는게 아님.
