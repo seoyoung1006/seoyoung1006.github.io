@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ReactHooks_1
+title: ReactHooks_UseStates
 color: rgb(255, 111, 97)
 tags: [os]
 ---
@@ -69,3 +69,5 @@ class AppUgly extends React.Component{ <br>
   };
 }
 </p>
+useState
+setState=> 모든것을 새로고침 해준다, rerender함. render function이 없다고 render이 안되는게 아님.
