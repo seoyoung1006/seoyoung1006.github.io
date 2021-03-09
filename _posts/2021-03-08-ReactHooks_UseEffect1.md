@@ -16,7 +16,8 @@ useEffect의 dependency가 비어있으면 몇번에 상관없이 딱 한번만 
 useEffect로 부터 Function이 리턴된다=>componentWillUpdate
 
 <h3>UseTitle</h3>
-<p style="background : black"> 
+
+```
 const useTitle = (initialTitle) => {
    const [title, setTitle] = useState(initialTitle);
    const updateTitle = () => {
@@ -26,6 +27,6 @@ const useTitle = (initialTitle) => {
    useEffect(updateTitle, [title]);
    return setTitle;
 };
-</p>
+```
 
 </body>

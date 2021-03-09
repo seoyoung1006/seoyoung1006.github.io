@@ -6,6 +6,7 @@ tags: [os]
 ---
 <h3>useBeforeLeave</h3>-tab을 닫을 때 실행되는 함수
 아무것도 return 하지 않는다. 
+
 ```
 const useBeforeLeave = (onBefore) => {
   if (typeof onBefore !== "function") {
@@ -22,7 +23,8 @@ const useBeforeLeave = (onBefore) => {
   useEffect(() => {
     document.removeEventListener("mouseleave", handle);
   }, []);
-};
+}; 
+```
 
 <h3>useFadeIn</h3>
 <p>

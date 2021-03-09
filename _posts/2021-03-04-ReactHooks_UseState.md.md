@@ -4,12 +4,6 @@ title: ReactHooks_UseStates
 color: rgb(255, 111, 97)
 tags: [os]
 ---
-<style>
-p {
-  background-Color: black;
-  color: gray;
-}
-</style>
 react앱 사용하면서의 단점
 1.handing input
 2.data가져오기=fetching
@@ -22,7 +16,7 @@ axios
 Hooks
 react의 state machine에 연결하는 방법
 
-<p>
+```
 const App= () => {
   const [item, setItem] = useState(1);
   const incrementItem = () => setItem(item + 1);
@@ -36,28 +30,29 @@ const App= () => {
     </div>
   );
 }
-</p>
-<p>
-class AppUgly extends React.Component{ <br>
-  state= { <br>
-    item: 1 <br>
-  }  <br>
-  render(){ <br>
-    const { item } = this.state; <br>
-    return (  <br>
-      <div className="App">  <br>
-        <h1>Hello {item}</h1>  <br>
-        <h2>Start editing to see some magic happen!</h2>  <br>
-        <button onClick={this.incrementItem}>Increment</button>  <br>
-        <button onClick={this.decrementItem}>Decrement</button>  <br>
-      </div>  <br>
-    );  <br>
-  }    <br>
-  incrementItem = () => {   <br>
-    this.setState(state => {  <br> 
-       return {  <br>
-      item:state.item. +1  <br>
-      };  <br>s
+```
+
+```
+class AppUgly extends React.Component{ 
+  state= { 
+    item: 1
+  }  
+  render(){ 
+    const { item } = this.state;
+    return ( 
+      <div className="App">  
+        <h1>Hello {item}</h1> 
+        <h2>Start editing to see some magic happen!</h2>  
+        <button onClick={this.incrementItem}>Increment</button> 
+        <button onClick={this.decrementItem}>Decrement</button> 
+      </div>  
+    );  
+  }    
+  incrementItem = () => {   
+    this.setState(state => {  
+       return { 
+      item:state.item. +1 
+      }; 
     });
    };
   decrementItem = () => {
@@ -68,8 +63,9 @@ class AppUgly extends React.Component{ <br>
    });
   };
 }
-</p>
-useState
+```
+
+<h3>useState</h3>
 1.state를 초기화 시켜주고
 2.첫번째 아이템인 currentindex는 index가 될것이고 두번째 아이템인 setCurrentIndex는 value를 바꿔줄것이다.
 useState의 value를 초기화해주고 현재value와 value를 변경해주는것은 매우 간단
