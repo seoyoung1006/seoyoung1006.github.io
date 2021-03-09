@@ -27,6 +27,43 @@ const useBeforeLeave = (onBefore) => {
 ```
 
 <h3>useFadeIn</h3>
-<p>
 
-</p>
+```
+const useFadeIn = (duration = 1, delay = 0) => {
+  if(typeof duration !== "number" || typeof delay !== "number") {
+    return;
+  }
+  const element = useRef();
+  useEffect(()=> {
+    if(element.current){
+      const{ current } = element;
+      current.style.transition=`opacity ${duration}s ease-in-out ${delay}s`;
+      current.style.opacity = 1;
+    }
+  },[]);
+  return {ref: element, style: {opacity : 0}};
+};
+```
+
+<h3>useNetwork</h3>-navigator가 online, offline되는걸 막아줄것이다 
+
+```
+const useNetwork = (onchange) => {
+  const [status, setStatus] = useState(navigator.online);
+  const handleChange = () => {
+    if (typeof onchange === "function") {
+      onchange(navigator.onLine);
+    }
+    setStatus(navigator.onLine);
+  };
+  useEffect(() => {
+    window.addEventListener("online", handleChange);
+    window.addEventListener("offline", handleChange);
+    () => {
+      window.removeEventListener("online", handleChange);
+      window.removeEventListener("offline", handleChange);
+    };
+  }, []);
+  return status;
+};
+```
