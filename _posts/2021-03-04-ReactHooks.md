@@ -8,7 +8,7 @@ tags: [os]
 <ul>
 <li>useTitle: react document의 제목을 몇개의 hooks와 함께 바꾸는 것</li>
 <li>useInput: input역할</li>
-<li>usePageLeave: 유저가 page를 떠나는 시점을 발견하고 함수를 실행</li>
+<li>useBeforeLeave: 유저가 page를 떠나는 시점을 발견하고 함수를 실행</li>
 <li>useClick: element를 클릴하는 시점 발견</li>
 <li>useFadeIn: 애니메이션을 element 안으로 서서히 사라지게 만듦</li>
 <li>useFullscreen: element를 풀스크린으로 만들거나 일반화면으로 돌아가게 할 있음</li>
