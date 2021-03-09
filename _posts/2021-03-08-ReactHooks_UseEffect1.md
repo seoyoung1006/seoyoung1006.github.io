@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ReactHooks_UseEffect1-useTitle
+title: ReactHooks_UseEffect1
 color: rgb(255, 111, 97)
 tags: [os]
 ---
