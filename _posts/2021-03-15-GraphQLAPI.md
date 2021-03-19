@@ -65,4 +65,5 @@ Database의 상태가 변할때 사용되는 것
 yts의 영화 리스트 코드 받아서 사용함.
 Rest API를 GraphQL API로 감싸는 방법 배움
 Django나 Express를 이용하면 뭐 해야할것도 많고 오래 걸리지만, GraphQL 이용하면 index,schema, resolvers, database
+마지막에 node-fetch를 axios로 바꿔준다. 
 </p>
